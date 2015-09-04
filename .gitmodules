@@ -1,3 +1,6 @@
 [submodule "www/redis.vvv"]
 	path = www/redis.vvv
 	url = https://github.com/goblindegook/VVV-Redis
+[submodule "www/elastic-starter.dev"]
+	path = www/elastic-starter.dev
+	url = https://github.com/thoronas/vvv-auto-setup-elasticsearch.git
