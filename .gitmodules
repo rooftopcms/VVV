@@ -1,0 +1,3 @@
+[submodule "www/redis.vvv"]
+	path = www/redis.vvv
+	url = https://github.com/goblindegook/VVV-Redis
