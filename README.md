@@ -15,11 +15,9 @@ VVV is a [10up](http://10up.com) creation and [transitioned](http://10up.com/blo
 
 ### The Purpose of Varying Vagrant Vagrants
 
-The primary goal of Varying Vagrant Vagrants (VVV) is to provide an approachable development environment that matches a typical production environment.
+The primary goal of Varying Vagrant Vagrants (VVV) is to provide an approachable development environment with a server configuration common for high traffic WordPress sites.
 
-The default server configuration provisioned by VVV matches a common configuration for working with high traffic WordPress sites.
-
-The default WordPress configurations provided by VVV create an environment ideal for developing themes and plugins as well as for [contributing to WordPress core](https://make.wordpress.org/core/).
+VVV is ideal for developing themes and plugins as well as for [contributing to WordPress core](https://make.wordpress.org/core/).
 
 ### How to Use Varying Vagrant Vagrants
 
@@ -191,11 +189,11 @@ A bunch of stuff!
 
 Supporting init scripts during provisioning allows for some great extensions of VVV core.
 
-* [VVV Site Wizard](https://github.com/aliso/vvv-site-wizard) "automates setting up new WordPress sites in Varying Vagrant Vagrants."
 * [Variable VVV](https://github.com/bradp/vv) automates setting up new sites, setting up deployments, and more.
 * [HHVVVM](https://github.com/johnjamesjacoby/hhvvvm) is an HHVM configuration for VVV.
 * The [WordPress Meta Environment](https://github.com/iandunn/wordpress-meta-environment) is a "collection of scripts that provision the official WordPress.org websites into a Varying Vagrant Vagrants installation."
-
+* [VVV Provision Flipper] (https://github.com/bradp/vvv-provision-flipper) allows for easy toggling between VVV provisioning scripts.
+* 
 #### Custom Dashboards
 
 The dashboard provided by VVV allows for easy replacement by looking for a `www/default/dashboard-custom.php` file. The community has built several great dashboards that may be more useful than the bare info provided by default:
