@@ -220,7 +220,7 @@ package_install() {
 
     # Install required packages
     echo "Installing apt-get packages..."
-    apt-get install -y ${apt_package_install_list[@]}
+    apt-get install -y --force-yes ${apt_package_install_list[@]}
 
     # Clean up apt caches
     apt-get clean
@@ -239,7 +239,7 @@ tools_install() {
   # XDebug 2.2.3 is provided with the Ubuntu install by default. The PECL
   # installation allows us to use a later version. Not specifying a version
   # will load the latest stable.
-  pecl install xdebug
+  pecl install xdebug-2.5.5 
 
   # ack-grep
   #
